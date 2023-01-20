@@ -1,0 +1,88 @@
+h2 {
+    font-size: 2em;
+}
+
+
+#title {
+    text-align: center;
+}
+
+.descricao {
+    text-align: justify;
+    color: white;
+    line-height: 1.2rem;
+    font-size: 0.9rem;
+}
+
+#servicos img {
+    width: 100%;
+    height: 270px;
+    border: 5px solid white;
+    border-radius: 10px;
+}
+
+#servicos h2, h4 {
+    color: darkgoldenrod;
+    text-shadow: 1px 2px 2px rgb(131, 130, 130);
+    
+}
+
+#servicos p {
+    color: white;
+    font-size: 0.8em;
+}
+
+.bgrow {
+    background-image: linear-gradient(to right, #2c2c2b00, #2c2c2b, #1e1e1d);
+    height: 100%;
+    position: relative;
+    
+    
+}
+
+.img-pos {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.Sdesc {
+    text-align: justify;
+}
+
+/** Extra-Small Devices **/
+@media (min-width: 400px) {
+   #servicos img {
+    height: 170px;
+   }
+
+   #servicos p {
+    color: white;
+    font-size: 0.7em;
+    }
+}
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) { 
+   
+}
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) { 
+
+ }
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) { 
+    #servicos p {
+        color: white;
+        font-size: 0.8em;
+        line-height: 1.3em;
+        }
+ }
+
+/** X-Large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) { 
+   
+ }

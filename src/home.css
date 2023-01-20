@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@400;500;700&family=Poppins:wght@400;500;700&display=swap');
+
+
+/**Definiçoes Gerais**/
+* {
+    font-family: Merriweather Sans;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1e1e1d ;
+    
+}
+
+h2, .gold {
+    color: darkgoldenrod;
+}
+
+a{
+    text-decoration: none;
+    color: darkgoldenrod;
+    display: block;
+    padding: 8px 8px;
+}
+
+a:hover {
+    background-color: darkgoldenrod;
+    color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+@media (min-width: 400px) {
+    .txth {
+        background-color: #1e1e1da9;
+
+     }
+
+
+}
+
+/** Small devices (landscape phones, 576px and up)**/
+@media (min-width: 576px) { 
+    .txth {
+       background-color: #1e1e1da9;
+    }
+}
+
+/** Medium devices (tablets, 768px and up) **/
+@media (min-width: 768px) { 
+
+ }
+
+/** Large devices (desktops, 992px and up)**/
+@media (min-width: 992px) { 
+    .txth {
+        background-color: #1e1e1d00;
+     }
+ }
+
+/** X-Large devices (large desktops, 1200px and up)**/
+@media (min-width: 1200px) { 
+    .txth {
+        background-color: #1e1e1d00;
+     }
+ }
+
+/**DEBUG BORDER**/
+
+
+
+/**MENU**/
+.navbar-toggler {
+    border: darkgoldenrod 1px solid;
+    background-color: darkgoldenrod;
+}
+
+.navbar-brand {
+    padding-top: 8px;
+    text-shadow: black 2px 2px 2px;
+}
+
+
+
+.logo a:hover {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.navbar {
+    background-color: #1e1e1dc9;
+    box-shadow: #000000e7 3px 3px 3px;
+    
+}
+.menu {
+    border-bottom: 2px darkgoldenrod solid;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navarea {
+    position: sticky fixed;
+}
+
+/**Header**/
+.Himg {
+    width: 100% auto;
+    margin-left: 0;
+}
+
+.imgpos {
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+}
+
+.bg-content  {
+    background-image: url(../public/images/3.png);
+    background-position: right;
+    background-size: cover;
+}
+
+
+
+header {
+    text-align: justify;
+    overflow: hidden;
+}
+
+.txth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.htxt {
+    width: 80%;
+}
+
+/**Infos**/
+.bg-infosL {
+    background-image: url(../public/images/bg1.png);
+    background-size: cover;
+}
+
+.bg-infosR {
+    background-color: wheat;
+}
+
+.hinfos {
+    height: 100%;
+}
+.infos {
+    text-align: center;
+    padding-top: 30px;
+}
+
+.infos ul {
+    list-style: circle;
+    text-align: start;
+}
+
+.btn-info {
+    background-color: #1e1e1d;
+    color: white;
+    border-radius: 10px;
+}
+
+.btn-ag {
+    background-color: darkgoldenrod;
+    color: #000000;
+    border-radius: 10px;
+}
+
+.btn-ag:hover {
+    background-color: #d1d1a4;
+    color: white;
+}
+
+.Agtxt {
+    text-align: justify;
+}
+
+/**Rodapé**/
+footer {
+     text-align: center;
+     background-color: #1e1e1d;
+     position: relative;
+}
+
+footer li {
+    list-style: none;
+    color: darkgoldenrod;
+}
+
